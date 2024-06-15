@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.calculator {
+    background-color: black;
+    height: 650px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.heading {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    margin-top: 20px;
+    width: 375px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.all-buttons {
+    margin-top: 100px;
+    background-color: #000000;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 40px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.button-s {
+    all: unset;
+    background-color: #0f1626;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    color: #4774f3;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.button,
+.button-ss {
+    all: unset;
+    background-color: #0f1626;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.button-ss {
+    background-color: #3661fe;
+}
+
+.button:hover {
+    background-color: #2C3539;
+}
+
+.button-s:hover {
+    background-color: #002244;
+}
+
+.button-ss:hover {
+    background-color: #6495ED;
+}
